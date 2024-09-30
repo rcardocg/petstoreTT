@@ -9,6 +9,7 @@ create table Producto(
 CREATE TABLE Clientes(
 	idcliente INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
 	nombre VARCHAR(100),
+	tipo VARCHAR(1),
 	email VARCHAR(100),
     contraseña VARCHAR(100),
 	telefono INTEGER,
